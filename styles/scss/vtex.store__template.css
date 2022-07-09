@@ -1,0 +1,16 @@
+
+.wrapper{
+    background:rgb(13, 0, 255);
+}
+.wrapper--sticky-header{
+
+    background:aqua;
+
+}
+
+
+@media (max-width: 419px) {
+    .page-title-box .breadcrumb {
+        display: none;
+    }
+}

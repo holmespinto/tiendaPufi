@@ -1,0 +1,11 @@
+.wrapper{
+    background:rgb(13, 0, 255);
+}
+.wrapper--sticky-header{
+
+    background:rgb(255, 0, 8);
+
+}
+.sticky-header{
+    background:rgb(222, 212, 19);
+}
