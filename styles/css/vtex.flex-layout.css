@@ -1,0 +1,14 @@
+.flexRowContent{
+    display: flex;
+    justify-content: space-around !important;
+    align-items: center;
+    align-content: center;
+    flex-direction: row !important;
+    width: 90% !important;
+    background:transparent;
+
+  }
+  .flexRow{
+    background:transparent;
+  }
+  

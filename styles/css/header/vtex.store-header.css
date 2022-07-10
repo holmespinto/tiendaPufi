@@ -1,0 +1,24 @@
+
+.headerRowContainer{
+    display: flex;
+    justify-content: space-around !important;
+    align-items: center;
+    align-content: center;
+    flex-direction: row !important;
+    width: 50% !important;
+   
+}
+.header-row{
+    display: flex;
+    width: 100% !important;
+    position: fixed;
+}
+
+.headerStickyRow{
+    background:transparent !important; 
+    width: 100% !important; 
+}
+.headerRowBackground {
+    background:transparent !important;
+
+}

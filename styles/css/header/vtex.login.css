@@ -1,0 +1,21 @@
+.container :global(.vtex-login-2-x):hover{
+  background-color: transparent !important;
+}
+.container :global(.vtex-login-2-x):focus{
+  background-color: transparent !important;
+}
+.label{
+  display: none;
+}
+.container :global(.vtex-button__label){
+  padding: 0 0 0 10px;
+}
+.container :global(.vtex-button__label)::after{
+  font-family: 'icomoon';
+  content: "MI CUENTA";
+  color: rgb(249, 245, 245);
+  font-size: 14px;
+}
+.profileIcon{
+  display: none;
+}

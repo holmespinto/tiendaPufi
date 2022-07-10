@@ -1,0 +1,219 @@
+{
+    "sticky-layout#global__menu": {
+        "props": {
+          "blockClass": "sticky-header"
+        },           
+        "children": [
+          "flex-layout.row#desktop",
+          "header-row#header__button-1",
+          "header-row#header__button-2",
+          "header-row#header__button-3",
+          "header-row#header__button-4"
+      ]
+      },
+      "flex-layout.row#desktop": {
+        "props": {
+          "horizontalAlign": "center",
+          "verticalAlign": "center",
+          "preventHorizontalStretch": true,
+          "preventVerticalStretch": true,
+          "fullWidth": true
+        },
+        "children": [
+          "flex-layout.col#logo-desktop",
+          "flex-layout.col#spacer",
+          "login",
+          "minicart.v2"
+        ]
+      },
+      "flex-layout.col#spacer": {
+        "props": {
+          "width": "grow"
+        }
+      },
+      "flex-layout.col#logo-desktop": {
+        "props": {
+          "verticalAlign": "middle"
+        },
+        "children": ["logo#pufi-inner"]
+      },
+      "logo#pufi-inner": {
+        "props": {
+          "title": "Logo",
+          "href": "/",
+          "url": "https://http2.mlstatic.com/storage/mshops-appearance-api/images/26/445300626/logo-2020060421130523900.png",
+          "width": "80"
+        }
+      },
+      "header-row#header__button-1": {
+        "children": [
+          "flex-layout.row#top-header-button-1"
+        ],
+        "props": {
+          "sticky": false,
+          "horizontalAlign": "center",
+          "verticalAlign": "center",
+          "preventHorizontalStretch": true,
+          "preventVerticalStretch": true,
+          "fullWidth": true
+        }
+      },
+      "flex-layout.row#top-header-button-1": {
+        "title": "Logo Top header desktop sub",
+        "props": {
+          "blockClass": "header-row2",
+          "fullWidth": true,
+          "horizontalAlign": "left"
+        },
+        "children": [
+         "image#desktop__brand-1",
+          "rich-text#desktop__brand-1"
+        ]
+      },
+      "image#desktop__brand-1": {
+        "props": {
+          "blockClass": "header-image",
+          "src": "https://esika.tiendabelcorp.com/medias/bic-logo-esika-top-mini-active.svg?context=bWFzdGVyfGltYWdlc3wzMjAwfGltYWdlL3N2Zyt4bWx8aW1hZ2VzL2g3MC9oN2YvMTA3NDQ5MjcyNTY2MDYuc3ZnfGRlZjUzMjk2YzdiYjYwNTQ4M2I3YTRlOWQwMDFjMjBjNjRiYTNiOGZjMjAzZTg5ODFmM2Y5OTQ4NjNlODIxMjI",
+          "maxWidth": 40,
+          "maxHeight": 48,
+          "url":"/"
+        }
+      },
+      "rich-text#desktop__brand-1": {
+        "props": {
+          "text": "PUFI PUFF",
+          "blockClass": "header-row-text",
+          "link":{
+            "url":"https://pufi--itgloberspartnercl.myvtex.com/",
+            "newTab": true
+          }
+        }
+      }, 
+      
+      //BUTTON 2 HEADER
+      "header-row#header__button-2": {
+        "children": [
+          "flex-layout.row#top-header-button-2"
+        ],
+        "props": {
+          "sticky": false,
+          "horizontalAlign": "center",
+          "verticalAlign": "center",
+          "preventHorizontalStretch": true,
+          "preventVerticalStretch": true,
+          "fullWidth": true//,
+          //"blockClass": "header-row"
+        }
+      },
+      "flex-layout.row#top-header-button-2": {
+        "title": "Logo Top header desktop sub",
+        "props": {
+          "blockClass": "header-row2",
+          "fullWidth": true,
+          "horizontalAlign": "left"
+        },
+        "children": [
+         "image#desktop__brand-2",
+          "rich-text#desktop__brand-2"
+        ]
+      },
+      "image#desktop__brand-2": {
+        "props": {
+          "blockClass": "header-image-2",
+          "src": "https://esika.tiendabelcorp.com/medias/bic-logo-esika-top-mini-active.svg?context=bWFzdGVyfGltYWdlc3wzMjAwfGltYWdlL3N2Zyt4bWx8aW1hZ2VzL2g3MC9oN2YvMTA3NDQ5MjcyNTY2MDYuc3ZnfGRlZjUzMjk2YzdiYjYwNTQ4M2I3YTRlOWQwMDFjMjBjNjRiYTNiOGZjMjAzZTg5ODFmM2Y5OTQ4NjNlODIxMjI",
+          "maxWidth": 40,
+          "maxHeight": 48,
+          "url":"/"
+        }
+      },
+      "rich-text#desktop__brand-2": {
+        "props": {
+          "text": "PUFI RAIN",
+          "blockClass": "header-row-text-2"
+        }
+      },
+      //BUTTON 3 HEADER 
+      "header-row#header__button-3": {
+        "children": [
+          "flex-layout.row#top-header-button-3"
+        ],
+        "props": {
+          "sticky": false,
+          "horizontalAlign": "center",
+          "verticalAlign": "center",
+          "preventHorizontalStretch": true,
+          "preventVerticalStretch": true,
+          "fullWidth": true//,
+          //"blockClass": "header-row"
+        }
+      },
+      "flex-layout.row#top-header-button-3": {
+        "title": "Logo Top header desktop sub",
+        "props": {
+          "blockClass": "header-row2",
+          "fullWidth": true,
+          "horizontalAlign": "left"
+        },
+        "children": [
+         "image#desktop__brand-3",
+          "rich-text#desktop__brand-3"
+        ]
+      },
+      "image#desktop__brand-3": {
+        "props": {
+          "blockClass": "header-image-3",
+          "src": "https://esika.tiendabelcorp.com/medias/bic-logo-esika-top-mini-active.svg?context=bWFzdGVyfGltYWdlc3wzMjAwfGltYWdlL3N2Zyt4bWx8aW1hZ2VzL2g3MC9oN2YvMTA3NDQ5MjcyNTY2MDYuc3ZnfGRlZjUzMjk2YzdiYjYwNTQ4M2I3YTRlOWQwMDFjMjBjNjRiYTNiOGZjMjAzZTg5ODFmM2Y5OTQ4NjNlODIxMjI",
+          "maxWidth": 40,
+          "maxHeight": 48,
+          "url":"/"
+        }
+      },
+      "rich-text#desktop__brand-3": {
+        "props": {
+          "text": "PUFI CART",
+          "blockClass": "header-row-text-3"
+        }
+      },
+      //BUTTON 4 HEADER  
+      "header-row#header__button-4": {
+        "children": [
+          "flex-layout.row#top-header-button-4"
+        ],
+        "props": {
+          "sticky": false,
+          "horizontalAlign": "center",
+          "verticalAlign": "center",
+          "preventHorizontalStretch": true,
+          "preventVerticalStretch": true,
+          "fullWidth": true//,
+          //"blockClass": "header-row"
+        }
+      },
+      "flex-layout.row#top-header-button-4": {
+        "title": "Logo Top header desktop sub",
+        "props": {
+          "blockClass": "header-row2",
+          "fullWidth": true,
+          "horizontalAlign": "left"
+        },
+        "children": [
+         "image#desktop__brand-4",
+          "rich-text#desktop__brand-4"
+        ]
+      },
+      "image#desktop__brand-4": {
+        "props": {
+          "blockClass": "header-image-4",
+          "src": "https://esika.tiendabelcorp.com/medias/bic-logo-esika-top-mini-active.svg?context=bWFzdGVyfGltYWdlc3wzMjAwfGltYWdlL3N2Zyt4bWx8aW1hZ2VzL2g3MC9oN2YvMTA3NDQ5MjcyNTY2MDYuc3ZnfGRlZjUzMjk2YzdiYjYwNTQ4M2I3YTRlOWQwMDFjMjBjNjRiYTNiOGZjMjAzZTg5ODFmM2Y5OTQ4NjNlODIxMjI",
+          "maxWidth": 40,
+          "maxHeight": 48,
+          "url":"/"
+        }
+      },
+      "rich-text#desktop__brand-4": {
+        "props": {
+          "text": "PUFI NAP",
+          "blockClass": "header-row-text-4"
+        }
+      }   
+}

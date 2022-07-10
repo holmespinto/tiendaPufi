@@ -1,0 +1,77 @@
+:global(.vtex-store-components-3-x-sizeDesktop) {
+    padding-bottom: 0px !important;
+    padding-right: 20rem !important;
+  }
+  .logoContainer--logo-desktop {
+    padding-bottom: 0px !important;
+  }
+  
+  .logoImage--logo-desktop {
+    padding-bottom: 0px !important;
+  }
+  .logoLink--logo-desktop {
+    padding-bottom: 0px !important;
+  }
+  
+  .imageElement--global__footerIconsMenu-1{
+    padding-left: 18rem !important;
+    height: 40px;
+  }
+  .imageElement--global__footerIconsMenu-2{
+    padding-left: -30rem !important;
+    height: 40px;
+  }
+  .footerServices{
+    display: flex;
+    display:inline-block;
+    background: brown;
+    border-bottom: solid #d2f385 3px;
+  }
+  .imageElement--single__banner-logo{
+    display: flex;
+    display:inline-block;
+    padding-left: 30rem !important;
+  }
+  .imageElement--submenu-image{
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    background: rgb(253, 253, 253);
+  }
+  .imageElement--header-image {
+    position:relative;
+    margin-top: -70px;
+    margin-right: -20px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    background:transparent !important; 
+    filter: brightness(0) invert(1);
+  }
+  .imageElement--header-image-2 {
+    position:relative;
+    margin-top: -70px;
+    margin-right: 20px;
+    margin-bottom: 0px;
+    margin-left: 550px;
+    background:transparent !important; 
+    filter: brightness(0) invert(1);
+  }
+  .imageElement--header-image-3 {
+    position:relative;
+    margin-top: -70px;
+    margin-right: 20px;
+    margin-bottom: 0px;
+    margin-left: 1010px;
+    background:transparent !important; 
+    filter: brightness(0) invert(1);
+  }
+  .imageElement--header-image-4 {
+    position:relative;
+    margin-top: -70px;
+    margin-right: 20px;
+    margin-bottom: 0px;
+    margin-left: 1550px;
+    background:transparent !important; 
+    filter: brightness(0) invert(1);
+  }

@@ -1,0 +1,91 @@
+.sliderTrackContainer{
+margin-top: -173px;
+background:transparent !important;
+}
+.imageElementLink--banner-slider__content {
+    width: 100%;
+    margin-top: -90px;
+  }
+  
+  .paginationDotsContainer--banner-slider__content {
+    bottom: 30px;
+  }
+  
+  .paginationDot--banner-slider__content {
+    height          : 15px !important;
+    width           : 15px !important;
+    border-radius   : 0;
+    background-color: #fcf7f7;
+    padding         : 0;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    border: 1px solid  rgb(84, 83, 83);
+    outline: 2px solid rgb(255, 255, 255);
+
+
+  }
+  
+  .paginationDot--banner-slider__content-isActive {
+    background: #db3b30;
+    padding         : 0;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    border: 1px solid  rgb(84, 83, 83);
+    outline: 2px solid rgb(240, 48, 48);
+  }
+  
+  .sliderLeftArrow--content__context--slider {
+    left         : 0;
+    width        : 48px;
+    height       : 48px;
+    text-align   : center;
+    background   : #e70b0b !important;
+    border-radius: 50%;
+    top          : 60%;
+  }
+  
+  .sliderRightArrow--content__context--slider {
+    left         : 70px;
+    width        : 48px;
+    height       : 48px;
+    text-align   : center;
+    background   : #ffffff !important;
+    border-radius: 50%;
+    top          : 60%;
+  }
+  
+  
+  @media screen and (max-width: 768px) {
+  
+    .sliderTrack--content__context--slider {
+      gap: 0;
+    }
+  
+    .sliderLayoutContainer--content__context--slider {
+      display       : flex;
+      flex-direction: column;
+      padding       : 0;
+    }
+  
+  
+  
+   .slide--content__context--slider {
+      margin: 0 5px !important;
+      width : calc(6.66667% + 37px) !important;
+    } 
+  
+    .sliderTrackContainer--content__context--slider::before {
+      content: "";
+    }
+  
+    .sliderTrackContainer--content__context--slider {
+      margin-left: 0;
+    }
+  
+    .sliderLeftArrow--content__context--slider,
+    .sliderRightArrow--content__context--slider {
+      display: none;
+    }
+  }

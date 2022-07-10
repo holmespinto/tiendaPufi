@@ -1,0 +1,68 @@
+.container--header-row-text {
+    font-family: Arial, Helvetica, Sans-serif;
+    color: white;
+    font-size: 14px;
+    line-height: 1.5em;
+    font-weight: bold; 
+    text-transform: capitalize;
+    vertical-align: middle;
+
+    display:inline-block;
+    padding: 0px 0px 0px 0px;
+    flex-direction: row !important;
+    margin-top: -50px !important;
+    margin-left: -40px !important;
+    width: 100px !important;
+    border-right: 1px solid rgb(253, 249, 249); 
+}
+.container--header-row-text-2 {
+    font-family: Arial, Helvetica, Sans-serif;
+    color: white;
+    font-size: 14px;
+    line-height: 1.5em;
+    font-weight: bold; 
+    text-transform: capitalize;
+    vertical-align: middle;
+
+    display:inline-block;
+    padding: 0px 0px 0px 0px;
+    flex-direction: row !important;
+    margin-top: -50px !important;
+    margin-left: -40px !important;
+    width: 80px !important;
+    border-right: 1px solid rgb(253, 249, 249); 
+}
+.container--header-row-text-3 {
+    font-family: Arial, Helvetica, Sans-serif;
+    color: white;
+    font-size: 14px;
+    line-height: 1.5em;
+    font-weight: bold; 
+    text-transform: capitalize;
+    vertical-align: middle;
+
+    display:inline-block;
+    padding: 0px 0px 0px 0px;
+    flex-direction: row !important;
+    margin-top: -50px !important;
+    margin-left: -15px !important;
+    width: 80px !important;
+    border-right: 1px solid rgb(253, 249, 249); 
+}
+.container--header-row-text-4 {
+    font-family: Arial, Helvetica, Sans-serif;
+    color: white;
+    font-size: 14px;
+    line-height: 1.5em;
+    font-weight: bold; 
+    text-transform: capitalize;
+    vertical-align: middle;
+
+    display:inline-block;
+    padding: 0px 0px 0px 0px;
+    flex-direction: row !important;
+    margin-top: -50px !important;
+    margin-left: 10px !important;
+    width: 80px !important;
+    border-right: 1px solid rgb(253, 249, 249); 
+}

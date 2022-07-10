@@ -1,0 +1,22 @@
+
+  .minicartContainer :global(.vtex-minicart-2-x):hover{
+    background-color: transparent !important;
+  }
+  .minicartContainer :global(.vtex-minicart-2-x):focus{
+    background-color: transparent !important;
+  }
+  .label{
+    display: none;
+  }
+  .minicartContainer :global(.vtex-button__label){
+    padding: 0 0 0 10px;
+  }
+  .minicartContainer :global(.vtex-button__label)::after{
+    font-family: 'icomoon';
+    content: "MI COMPRA";
+    color: rgb(249, 245, 245);
+    font-size: 14px;
+  }
+  .profileIcon{
+    display: none;
+  }

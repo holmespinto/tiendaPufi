@@ -1,15 +1,12 @@
 {
-  "store.home": { 
+  "store.home": {
+    "title": "Home Container global",
     "blocks": [
-      "rich-text"
+      "responsive-layout.desktop",
+      "responsive-layout.mobile" 
+      
     ]
-  },
-  "rich-text": { 
-    "props": { 
-      "text": "Plantilla",
-      "textAlignment": "CENTER",
-      "textPosition": "CENTER",
-      "font": "t-heading-1"
-    }
   }
+     
+  
 }

@@ -1,0 +1,9 @@
+{
+  "responsive-layout.desktop": {
+    "title": "Responsive the content Mobile",
+    "children": [
+      "list-context.image-list#global__banner-slider"
+    ]
+  }
+
+}
