@@ -1,23 +1,32 @@
 {
     "flex-layout.row#desktop__category-grid": {
-        "title": "Grilla de categorías",
+        "title": "Grilla de primera categorías",
+        "props": {
+          "text": "Primera fila",
+          "blockClass": "grid1-row"
+        },
         "children": [
           "flex-layout.col#category-grid"
         ]
       },
       "flex-layout.col#category-grid": {
+      "props": {
+        "text": "Primera fila",
+        "blockClass": "grid1-row"
+      },
         "children": [
           "responsive-layout.desktop#category-grid"
         ]
       },
       "responsive-layout.desktop#category-grid": {
-        "title": "Desktop",
+        "title": "Grid de dos columnas",
         "children": [
           "flex-layout.row#category-grid-desktop-1",
           "flex-layout.row#category-grid-desktop-2",
           "flex-layout.row#category-grid-desktop-3",
           "flex-layout.row#category-grid-desktop-4"
         ]
+        
       },
       "flex-layout.row#category-grid-desktop-1": {
         "children": [

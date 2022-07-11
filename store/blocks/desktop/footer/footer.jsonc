@@ -1,0 +1,219 @@
+{
+    "footer-layout.desktop": { 
+      "children": [
+        "flex-layout.row#footer"
+      ]
+    },
+    "flex-layout.row#footer": {
+      "children": ["flex-layout.row#footer-category"],
+      "props": {
+        "blockClass": "footer--category"
+      }
+    },
+  
+    "flex-layout.row#footer-category": {
+      "children": [
+        "flex-layout.col#footer__logo",
+        "flex-layout.col#footer__category",
+        "flex-layout.col#footer__help",
+        "flex-layout.col#footer__buy",
+        "flex-layout.col#footer__siguenos"
+      ],
+      "props": {
+        "blockClass": "category",
+        "fullWidth": true
+      }
+    },
+  
+    "flex-layout.col#footer__logo": {
+      "children": ["image#deal1"]
+    },
+    "image#deal1": {
+      "props": {
+        "src": "https://amalia.vteximg.com.br/arquivos/shield.png",
+        "maxHeight": "90px"
+      }
+    },
+
+    "flex-layout.col#footer__category": {
+      "children": [
+        "rich-text#footer__category-1",
+        "rich-text#footer__category-2",
+        "rich-text#footer__category-3",
+        "rich-text#footer__category-4"
+      ]
+    },
+    "rich-text#footer__category-1": {
+      "props": {
+        "text": "PUFI PUFF",
+        "blockClass": "footer-category-text-puf"
+      }
+    },
+    "rich-text#footer__category-2": {
+      "props": {
+        "text": "PUFI RAIN",
+        "blockClass": "footer-category-text"
+      }
+    },
+    "rich-text#footer__category-3": {
+      "props": {
+        "text": "PUFI CART",
+        "blockClass": "footer-category-text"
+      }
+    },"rich-text#footer__category-4": {
+      "props": {
+        "text": "PUFI NAT",
+        "blockClass": "footer-category-text"
+      }
+    },
+    "flex-layout.col#footer__help": {
+      "children": [
+        "rich-text#footer__help-1",
+        "rich-text#footer__help-2",
+        "rich-text#footer__help-3",
+        "rich-text#footer__help-4"
+      ]
+    },
+    "rich-text#footer__help-1": {
+      "props": {
+        "text": "CONTACTO",
+        "blockClass": "footer-category-text-contact"
+      }
+    },
+    "rich-text#footer__help-2": {
+      "props": {
+        "text": "AYUDA",
+        "blockClass": "footer-category-text"
+      }
+    },
+    "rich-text#footer__help-3": {
+      "props": {
+        "text": "CÓMO COMPRAR",
+        "blockClass": "footer-category-text"
+      }
+    },
+    "rich-text#footer__help-4": {
+      "props": {
+        "text": "TÉRMINOS & CONDICIONES",
+        "blockClass": "footer-category-text"
+      }
+    },
+    "flex-layout.col#footer__buy": {
+      "children": [
+        "flex-layout.row#footer__buy",
+        "flex-layout.col#footer__image--buy-1",
+        "flex-layout.col#footer__image--buy-2",
+        "flex-layout.col#footer__text--buy-2"//,
+        //"image#footer__buy-2",
+        //"rich-text#footer__buy-2"
+      ]
+    },
+    "flex-layout.row#footer__buy": {
+      "children": [
+        "rich-text#footer__buy-1" //,
+        //"image#footer__buy-1",
+         //"image#footer__buy-2",
+         //"rich-text#footer__buy-2"
+      ]
+    },
+    "flex-layout.col#footer__image--buy-1": {
+      "props": {
+        "blockClass": "footer-image-col1"
+      },
+      "children": [
+        "image#footer__image--buy-1" //,
+        //"image#footer__buy-1",
+         //"image#footer__buy-2",
+         //"rich-text#footer__buy-2"
+      ]
+    }, 
+    "flex-layout.col#footer__image--buy-2": {
+      "props": {
+        "blockClass": "footer-image-col2"
+      },
+      "children": [
+        "image#footer__image--buy-1" //,
+        //"image#footer__buy-1",
+         //"image#footer__buy-2",
+         //"rich-text#footer__buy-2"
+      ]
+    }, 
+    "flex-layout.col#footer__text--buy-2": {
+      "props": {
+        "blockClass": "footer-image-col2"
+      },
+      "children": [
+        "rich-text#footer__buy-2" //,
+        //"image#footer__buy-1",
+         //"image#footer__buy-2",
+         //"rich-text#footer__buy-2"
+      ]
+    },    
+    "rich-text#footer__buy-1": {
+      "props": {
+        "text": "COMPRA SEGURA",
+        "blockClass": "footer-buy-text"
+      }
+    },
+    "image#footer__image--buy-1": {
+      "props": {
+        "src": "https://amalia.vteximg.com.br/arquivos/shield.png",
+        "maxHeight": "90px"
+      }
+    },
+    "image#footer__buy-2": {
+      "props": {
+        "src": "https://amalia.vteximg.com.br/arquivos/shield.png",
+        "maxHeight": "90px"
+      }
+    },
+    "rich-text#footer__buy-2": {
+      "props": {
+        "text": "COMPRA CON LA GARANTIA DE PUFI ",
+        "blockClass": "footer-buy-text-2"
+      }
+    },
+    "flex-layout.col#footer__siguenos": {
+      "props": {
+        "blockClass": "footer__siguenos"
+      },
+      "children": [
+        "rich-text#footer__siguenos-1",
+        "flex-layout.row#footer__siguenos-img"
+      ]
+    },
+    "rich-text#footer__siguenos-1": {
+      "props": {
+        "text": "SIGUIENOS ",
+        "blockClass": "footer-siguenos-text-1"
+      }
+    },
+    "flex-layout.row#footer__siguenos-img": {
+      "props": {
+        "blockClass": "footer-siguenos-img-1"
+      },
+      "children": [
+        "image#footer__siguenos--img-2",
+        "image#footer__siguenos--img-1",
+        "image#footer__siguenos--img-3"
+      ]
+    },
+    "image#footer__siguenos--img-1": {
+      "props": {
+        "src": "https://esika.tiendabelcorp.com/medias/instagram-esika.svg?context=bWFzdGVyfGltYWdlc3w5OTJ8aW1hZ2Uvc3ZnK3htbHxpbWFnZXMvaDI2L2gwYS8xMDc0NDk1NDQ1NDA0Ni5zdmd8MWY3OWZjYjc2M2IzMmU5M2M1ZjI0MGQ1NjFkNjQzMWZkMmEzMjRkMjcwY2Y3OWYwZWQyN2U5NjczOGM5MTIzMg",
+        "maxHeight": "90px"
+      }
+    },
+    "image#footer__siguenos--img-2": {
+      "props": {
+        "src": "https://esika.tiendabelcorp.com/medias/facebook-esika.svg?context=bWFzdGVyfGltYWdlc3wzOTF8aW1hZ2Uvc3ZnK3htbHxpbWFnZXMvaDA2L2hlYi8xMDc0NDk1NDQyMTI3OC5zdmd8OTdlOWY3MDNiNGM2ZmFjNjI0OWM1MjhlZmIxMTE1OWYyZGI0M2IyOTgzOWQxY2UwY2Q2YjZjNDhhMjcyNmU5MA",
+        "maxHeight": "90px"
+      }
+    },
+    "image#footer__siguenos--img-3": {
+      "props": {
+        "src": "https://esika.tiendabelcorp.com/medias/youtube-esika.svg?context=bWFzdGVyfGltYWdlc3w5OTF8aW1hZ2Uvc3ZnK3htbHxpbWFnZXMvaDBkL2hmYS8xMDc0NDk1NDY1MDY1NC5zdmd8OTRkNDczZTM0NjQ4NTk3Y2IzOTAyMmE5ZDE5MzIzOTVkMjgxZDg4YzFjZThjODAzMTQyMmM3MWM3MmY5Njk2NA",
+        "maxHeight": "90px"
+      }
+    }
+}

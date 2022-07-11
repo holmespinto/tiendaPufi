@@ -78,6 +78,7 @@
     line-height: 2.5em;
     margin-top: -30px !important;
     margin-left: 100px !important;
+    cursor: pointer;
 }
 
 .paragraph--grid-item-title-suscribite-1{
@@ -111,5 +112,56 @@
     border: 1px solid rgb(162, 154, 154);
     text-align: center;
 }
+.wrapper--footer-category-text{
+    line-height: 1.5em;
+    font-weight: bold; 
+    font-size: 14px; 
+    text-align: center; 
+    display:inline-block; 
+    margin-top: -5px !important;
+    
+    
+}
+.wrapper--footer-category-text-contact{
+    line-height: 1.5em;
+    font-weight: bold; 
+    font-size: 14px; 
+    text-align: center; 
+    display:inline-block; 
+    margin-top: 10px !important;
+}
+.wrapper--footer-category-text-puf{
+    line-height: 1.5em;
+    font-weight: bold; 
+    font-size: 14px; 
+    text-align: center; 
+    display:inline-block; 
+    margin-top: 10px !important;
+}
+.wrapper--footer-buy-text{
+    line-height: 1.5em;
+    font-weight: bold; 
+    font-size: 14px; 
+    text-align: center; 
+    display:inline-block; 
+    margin-top: -50px !important;
+}
+.wrapper--footer-buy-text-2{
+    line-height: 1.5em;
+    font-weight: bold; 
+    font-size: 10px; 
+    text-align: center; 
+    display:inline-block; 
+    margin-top: -10px !important;
+    margin-left: 100px !important;
+}
 
+.paragraph--footer-siguenos-text-1{
+    line-height: 1.5em;
+    font-weight: bold; 
+    font-size: 14px; 
+    text-align: left; 
+    display:inline-block; 
+    margin-top: -50px !important;
+}
 
