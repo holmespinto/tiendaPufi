@@ -76,14 +76,18 @@
           "fullWidth": true
         },
         "children": [
-          "rich-text#suscribite-4"
+          "rich-text#suscribite-4",
+          "button-email"
         ]
+      },
+      "button-email":{
+        "title": "Button Email"
       },
       "rich-text#suscribite-4": {
         "title": "Título de Grilla",
         "props": {
           "text": "Ingresa tu email",
-          "blockClass": "grid-item-title-suscribite-4"
+          "blockClass": "input_email"
         }
       } 
 }
