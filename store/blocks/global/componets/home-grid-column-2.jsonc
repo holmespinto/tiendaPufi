@@ -1,0 +1,199 @@
+{
+    "flex-layout.row#desktop__category-grid": {
+        "title": "Grilla de categorías",
+        "children": [
+          "flex-layout.col#category-grid"
+        ]
+      },
+      "flex-layout.col#category-grid": {
+        "children": [
+          "responsive-layout.desktop#category-grid"
+        ]
+      },
+      "responsive-layout.desktop#category-grid": {
+        "title": "Desktop",
+        "children": [
+          "flex-layout.row#category-grid-desktop-1",
+          "flex-layout.row#category-grid-desktop-2",
+          "flex-layout.row#category-grid-desktop-3",
+          "flex-layout.row#category-grid-desktop-4"
+        ]
+      },
+      "flex-layout.row#category-grid-desktop-1": {
+        "children": [
+          "flex-layout.col#category-grid-item-1",
+          "flex-layout.col#category-grid-item-2"
+        ],
+        "props": {
+          "text": "Primera fila",
+          "blockClass": "row-item"
+        }
+      },
+      "flex-layout.row#category-grid-desktop-2": {
+        "children": [
+          "flex-layout.col#category-grid-item-3",
+          "flex-layout.col#category-grid-item-4"
+        ]
+      }, 
+      "flex-layout.row#category-grid-desktop-3": {
+        "children": [
+          "flex-layout.col#category-grid-item-5",
+          "flex-layout.col#category-grid-item-6"
+        ]
+      },"flex-layout.row#category-grid-desktop-4": {
+        "children": [
+          "flex-layout.col#category-grid-item-7",
+          "flex-layout.col#category-grid-item-8"
+        ]
+      },
+      "flex-layout.col#category-grid-item-1": {
+        "title": "Categoría 1",
+        "children": [
+          "image#grid-item-1"
+        ],
+        "props": {
+          "verticalAlign": "top",
+          "preventVerticalStretch": true,
+          "blockClass": "row-item-1"
+        }
+      },
+      "flex-layout.col#category-grid-item-2": {
+        "title": "Categoría 2",
+        "children": [
+          "image#grid-item-2"
+        ],
+        "props": {
+          "blockClass": "row-item-2",
+          "verticalAlign": "top",
+          "preventVerticalStretch": true
+        }
+      },
+      "flex-layout.col#category-grid-item-3": {
+        "title": "Categoría 3",
+        "children": [
+          "image#grid-item-3"
+        ],
+        "props": {
+          "blockClass": "row-item-1",
+          "verticalAlign": "top",
+          "preventVerticalStretch": true
+          
+        }
+      },
+      "flex-layout.col#category-grid-item-4": {
+        "title": "Categoría 4",
+        "children": [
+          "image#grid-item-4"
+        ],
+        "props": {
+          "blockClass": "row-item-2",
+          "verticalAlign": "top",
+          "preventVerticalStretch": true
+        }
+      },
+      "flex-layout.col#category-grid-item-5": {
+        "title": "Categoría 5",
+        "children": [
+          "image#grid-item-5"
+        ],
+        "props": {
+          "blockClass": "row-item-1",
+          "verticalAlign": "top",
+          "preventVerticalStretch": true
+        }
+      },"flex-layout.col#category-grid-item-6": {
+        "title": "Categoría 6",
+        "children": [
+          "image#grid-item-6"
+        ],
+        "props": {
+          "blockClass": "row-item-2",
+          "verticalAlign": "top",
+          "preventVerticalStretch": true
+        }
+      },
+      "flex-layout.col#category-grid-item-7": {
+        "title": "Categoría 7",
+        "children": [
+          "image#grid-item-7"
+        ],
+        "props": {
+          "blockClass": "row-item-1",
+          "verticalAlign": "top",
+          "preventVerticalStretch": true
+        }
+      },"flex-layout.col#category-grid-item-8": {
+        "title": "Categoría 8",
+        "children": [
+          "image#grid-item-8"
+        ],
+        "props": {
+          "blockClass": "row-item-2",
+          "verticalAlign": "top",
+          "preventVerticalStretch": true
+        }
+      },
+      "image#grid-item-1": {
+        "props": {
+          "src": "https://cdn.pixabay.com/photo/2019/08/19/07/45/corgi-4415649_960_720.jpg",
+          "maxHeight": "100%",
+          "height": "100%",
+          "width": "100%",
+          "maxWidth": "100%"
+        }
+        },
+      "image#grid-item-2": {
+        "props": {
+          "src": "https://cdn.pixabay.com/photo/2015/05/31/13/59/rain-791893_960_720.jpg",
+          "maxHeight": "100%",
+          "height": "100%",
+          "width": "100%",
+          "maxWidth": "100%"
+        }
+        
+      },"image#grid-item-3": {
+        "props": {
+          "src": "https://cdn.pixabay.com/photo/2018/07/10/10/29/girl-3528292_960_720.jpg",
+          "maxHeight": "100%",
+          "height": "100%",
+          "width": "100%",
+          "maxWidth": "100%"
+        }
+      },"image#grid-item-4": {
+        "props": {
+          "src": "https://cdn.pixabay.com/photo/2016/07/11/15/43/woman-1509956_960_720.jpg",
+          "maxHeight": "100%",
+          "height": "100%",
+          "width": "100%",
+          "maxWidth": "100%"
+        }
+      },"image#grid-item-5": {
+        "props": {
+          "src": "https://cdn.pixabay.com/photo/2015/09/20/18/31/coins-948603_960_720.jpg",
+          "maxHeight": "100%",
+          "height": "100%",
+          "width": "100%",
+          "maxWidth": "100%"
+        }
+      },"image#grid-item-6": {
+        "props": {
+          "src": "https://cdn.pixabay.com/photo/2018/09/21/07/07/e-commerce-3692440_960_720.jpg",
+          "maxHeight": "100%",
+          "height": "100%",
+          "width": "100%",
+          "maxWidth": "100%"
+        }
+      },"image#grid-item-7": {
+        "props": {
+          "src": "https://cdn.pixabay.com/photo/2013/02/23/14/46/child-85321_960_720.jpg"
+        }
+      },"image#grid-item-8": {
+        "props": {
+          "src": "https://cdn.pixabay.com/photo/2017/03/09/04/47/girl-2128458_960_720.jpg",
+          "maxHeight": "100%",
+          "height": "100%",
+          "width": "100%",
+          "maxWidth": "100%"
+        }
+      }
+}

@@ -66,3 +66,50 @@
     width: 80px !important;
     border-right: 1px solid rgb(253, 249, 249); 
 }
+.paragraph--grid-item-title-instagram-1{
+    font-size: 14px;
+    line-height: 1.5em;
+    color: rgb(160, 151, 151);
+    margin-left: 100px !important;
+
+}
+.paragraph--grid-item-title-instagram-2{
+    font-size: 24px;
+    line-height: 2.5em;
+    margin-top: -30px !important;
+    margin-left: 100px !important;
+}
+
+.paragraph--grid-item-title-suscribite-1{
+    font-size: 14px;
+    line-height: 1.5em;
+    color: rgb(160, 151, 151);
+    margin-left: 100px !important;
+}
+.paragraph--grid-item-title-suscribite-2{
+    font-size: 24px;
+    line-height: 2.5em;
+    margin-top: -30px !important;
+    margin-left: 100px !important;
+}
+.paragraph--grid-item-title-suscribite-3{
+    font-size: 12px;
+    line-height: 1.5em;
+    color: rgb(44, 43, 43);
+    margin-left: 100px !important;
+    margin-top: -40px !important;
+
+}
+.paragraph--grid-item-title-suscribite-4{
+    font-size: 14px;
+    line-height: 1.5em;
+    color: rgb(160, 151, 151);
+    margin-left: 100px !important;
+    margin-top: -10px !important;
+    width: 400px; 
+    height: 40px; 
+    border: 1px solid rgb(162, 154, 154);
+    text-align: center;
+}
+
+

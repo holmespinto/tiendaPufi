@@ -1,0 +1,89 @@
+{
+    "sticky-layout#desktop__suscribite": {
+        "props": {
+          "blockClass": "sticky-header"
+        },           
+        "children": [
+          "flex-layout.row#desktop__suscribite-1",
+          "flex-layout.row#desktop__suscribite-2",
+          "flex-layout.row#desktop__suscribite-3",
+          "flex-layout.row#desktop__suscribite-4"
+      ]
+      },
+      "flex-layout.row#desktop__suscribite-1": {
+        "props": {
+          "horizontalAlign": "center",
+          "verticalAlign": "center",
+          "preventHorizontalStretch": true,
+          "preventVerticalStretch": true,
+          "fullWidth": true
+        },
+        "children": [
+          "rich-text#suscribite-1"
+        ]
+      },
+      "rich-text#suscribite-1": {
+        "title": "Título de Grilla",
+        "props": {
+          "text": "NEWSLETTER",
+          "blockClass": "grid-item-title-suscribite-1"
+        }
+      },
+      "flex-layout.row#desktop__suscribite-2": {
+        "props": {
+          "horizontalAlign": "center",
+          "verticalAlign": "center",
+          "preventHorizontalStretch": true,
+          "preventVerticalStretch": true,
+          "fullWidth": true
+        },
+        "children": [
+          "rich-text#suscribite-2"
+        ]
+      },
+      "rich-text#suscribite-2": {
+        "title": "Título de Grilla",
+        "props": {
+          "text": "SUSCRIBITE",
+          "blockClass": "grid-item-title-suscribite-2"
+        }
+      },
+      "flex-layout.row#desktop__suscribite-3": {
+        "props": {
+          "horizontalAlign": "center",
+          "verticalAlign": "center",
+          "preventHorizontalStretch": true,
+          "preventVerticalStretch": true,
+          "fullWidth": true
+        },
+        "children": [
+          "rich-text#suscribite-3"
+        ]
+      },
+      "rich-text#suscribite-3": {
+        "title": "Título de Grilla",
+        "props": {
+          "text": "Y enterate de todas las novedades",
+          "blockClass": "grid-item-title-suscribite-3"
+        }
+      },
+      "flex-layout.row#desktop__suscribite-4": {
+        "props": {
+          "horizontalAlign": "center",
+          "verticalAlign": "center",
+          "preventHorizontalStretch": true,
+          "preventVerticalStretch": true,
+          "fullWidth": true
+        },
+        "children": [
+          "rich-text#suscribite-4"
+        ]
+      },
+      "rich-text#suscribite-4": {
+        "title": "Título de Grilla",
+        "props": {
+          "text": "Ingresa tu email",
+          "blockClass": "grid-item-title-suscribite-4"
+        }
+      } 
+}

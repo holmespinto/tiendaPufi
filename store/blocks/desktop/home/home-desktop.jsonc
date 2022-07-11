@@ -1,9 +1,13 @@
 {
   "responsive-layout.desktop": {
-    "title": "Responsive the content Mobile",
+    "title": "Responsive the content desktop",
     "children": [
-      "list-context.image-list#global__banner-slider"
+      "list-context.image-list#global__banner-slider",
+      "flex-layout.row#desktop__category-grid",
+      "sticky-layout#desktop__instagram",
+      "flex-layout.row#desktop__category-grid-col3",
+      "sticky-layout#desktop__suscribite"
     ]
   }
-
+  
 }

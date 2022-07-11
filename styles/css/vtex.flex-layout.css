@@ -11,4 +11,40 @@
   .flexRow{
     background:transparent;
   }
+  .flexRow--row-item{
+    background:rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    align-content: center;
+    flex-direction: row !important;
+  }
+  .flexColChild--row-item-1{
+    height: 400px;
+    width: 660px;
+    margin-right:0px;
+  }
+  .flexColChild--row-item-2{
+    height: 400px;
+    width: 660px;
+    margin-left:0px;
+    border-left: 1px solid rgb(255, 255, 255);
+  }
+  .flexRow--grid2-row{
+    background:rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-direction: row !important;
+    width: 80%;
+    margin-left: 130px;
+  }
+  .flexColChild--grid2-image-item-1{
+    display: flex;
+    background:rgb(255, 255, 255);
+    height: 30%;
+    width: 30%;
+    flex-direction: row !important;
+  }
+
   

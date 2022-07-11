@@ -1,0 +1,42 @@
+.row {
+    background-color: black;
+  }
+  .rowContainer--footerMenuDesktop {
+    justify-content: center;
+  }
+  .footerLayoutSpacer{
+    border-top: 1px solid #ddd;
+    box-shadow: 2px -3px 6px rgb(65, 64, 64);
+  }
+  .row--footerMenu :global(.vtex-store-components-3-x-container) {
+    color: white;
+    /* margin-top: 40px; */
+  }
+  .row--socialNetwork {
+    padding: 20px 0px;
+    /* display: flex; */
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+  }
+  .rowContentContainer--socialNetwork {
+    padding: 0;
+  }
+  .rowContainer--socialNetwork {
+    /* display: flex; */
+    justify-content: center;
+  }
+  .rowContentContainer--footerServices {
+    padding: 0;
+  
+    display: flex;
+    justify-content: center;
+  }
+  .rowContainer--footerServices {
+    width: 70%;
+  }
+  @media screen and (min-width: 40em) {
+    .rowContainer--footerServices {
+      width: 100%;
+    }
+  }
+  
