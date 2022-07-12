@@ -1,6 +1,6 @@
 # Maquetación de una tienda
 
-En el siguiente repositorio se implementó una tienda, con la validación de un input para validar email. La imagen a continuación muestra la pagina principal.
+En el siguiente repositorio se implementó una tienda, con la validación de un input para  email. La imagen a continuación muestra la pagina principal.
 
 ![01](https://user-images.githubusercontent.com/70826804/178391534-c263add4-5cbe-4966-a468-72fac677a42a.png)
 
@@ -16,4 +16,7 @@ al digita el texto si no se digita el campo con los caracteres de la @ y el .com
 
 ![04](https://user-images.githubusercontent.com/70826804/178392798-970803ef-5d18-487f-9ff1-15a4e2d710fc.png)
 
+Para el footer se crearon los texto con el fin de crear los link por medio del componente LINK. La siguiente imagen muestra las las colunas.
+
+![05](https://user-images.githubusercontent.com/70826804/178429238-975b61c9-447f-48dd-aeed-90f5510987ba.png)
 
