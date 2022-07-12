@@ -1,6 +1,6 @@
 {
     "flex-layout.row#desktop__category-grid-col3": {
-        "title": "Grilla de categorías",
+      "title": "Grilla de la segunda categorías",
         "children": [
           "flex-layout.col#category-grid-col3"
         ]

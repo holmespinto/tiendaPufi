@@ -7,3 +7,10 @@
 .sticky-header{
     background:transparent !important;
 }
+.wrapper--row-suscribite{
+    display: flex;
+    justify-content: space-around !important;
+    flex-direction: row !important; 
+    height: 200px !important;
+}
+

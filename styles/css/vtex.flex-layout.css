@@ -8,6 +8,7 @@
     background:transparent;
 
   }
+  
   .flexRowContent--grid1-row{
     display: flex;
     justify-content: space-around !important;
@@ -34,15 +35,61 @@
     background:transparent; 
    }
   .flexColChild--row-item-1{
+    display: flex;
+    justify-content: center;
     height: 400px;
     width: 670px;
-    margin-right:50px;
+    margin-left:-2px;
+    margin-top:-8px;
+  }
+  .flexColChild--row2-img-3{
+    display: flex;
+    justify-content: center;
+    height: 300px;
+    width: 670px;
+    margin-left:-2px;
+    margin-top:-5px;
+  }
+  .flexColChild--row2-img-4{
+    display: flex;
+    justify-content: center;
+    height: 400px;
+    width: 665px;
+    margin-left:-135px;
+    margin-top:-5px;
   }
   .flexColChild--row-item-2{
     height: 400px;
     width: 670px;
-    margin-left:60px;
+    margin-left:-140px;
     border-left: 1px solid rgb(255, 255, 255);
+  }
+  .flexColChild--row1-item-2{
+    height: 400px;
+    width: 670px;
+    margin-left:65px;
+    border-left: 1px solid rgb(255, 255, 255);
+  }
+ 
+  .flexColChild--row3-img-4{
+    display: flex;
+    justify-content: center;
+    height: 400px;
+    width: 670px;
+    margin-left:266px;
+    margin-top:-8px;
+  }
+  .flexColChild--grid-row4-text-1{
+    display: flex;
+    flex-direction: column !important;
+    margin-left:-300px;
+    margin-top:-8px;
+  }
+  .flexColChild--footer-logo{
+    display: flex;
+    flex-direction: column !important;
+    background:rgb(174, 5, 5);
+    height: 600px;
   }
   .flexRow--grid2-row{
     background:rgb(255, 255, 255);
@@ -55,6 +102,13 @@
     margin-left:180px;
   }
   .flexColChild--grid2-image-item-1{
+    display: flex;
+    background:rgb(255, 255, 255);
+    height: 30%;
+    width: 30%;
+    flex-direction: row !important;
+  }
+  .flexColChild--grid-row2-image-3{
     display: flex;
     background:rgb(255, 255, 255);
     height: 30%;
@@ -93,4 +147,13 @@
   flex-direction: row !important;
   margin-left: 100px; 
 }
-  
+.flexRowContent--footer-copyright{
+  display: flex;
+  flex-direction: row !important;
+  border-top: 1px solid rgb(180, 175, 175);
+  width: 100%;
+  margin-left: 100px;  
+}
+.flexColChild--footer-copyright-img{
+  margin-left: 500px;  
+}

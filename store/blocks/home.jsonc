@@ -2,8 +2,7 @@
   "store.home": {
     "title": "Home Container global",
     "blocks": [
-      "responsive-layout.desktop",
-      "responsive-layout.mobile" 
+      "responsive-layout.desktop"
       
     ]
   }

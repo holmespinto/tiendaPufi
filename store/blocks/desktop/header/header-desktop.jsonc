@@ -1,9 +1,8 @@
 {
         "header-layout.desktop": {
-
+          "title":"Menu botones principales",
             "children": [
               "sticky-layout#global__menu"
             ]
-          }
-                
+          }     
 }

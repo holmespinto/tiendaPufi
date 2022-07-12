@@ -1,5 +1,6 @@
 {
   "login": {
+    "title": "Boton login",
     "props":{
       "optionsTitle":"MI CUENTA"
     }

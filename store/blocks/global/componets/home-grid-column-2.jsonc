@@ -21,49 +21,175 @@
       "responsive-layout.desktop#category-grid": {
         "title": "Grid de dos columnas",
         "children": [
-          "flex-layout.row#category-grid-desktop-1",
-          "flex-layout.row#category-grid-desktop-2",
-          "flex-layout.row#category-grid-desktop-3",
+          "flex-layout.row#category-grid--row1-desktop-1",
+          "flex-layout.row#category-grid--row2-desktop-2",
+          "flex-layout.row#category-grid--row3-desktop-3",
           "flex-layout.row#category-grid-desktop-4"
         ]
         
       },
-      "flex-layout.row#category-grid-desktop-1": {
+      "flex-layout.row#category-grid--row1-desktop-1": {
         "children": [
           "flex-layout.col#category-grid-item-1",
-          "flex-layout.col#category-grid-item-2"
+          "flex-layout.col#category-grid-text-1",
+          "flex-layout.col#category-grid-item-2",
+          "flex-layout.col#category-grid-text-2"
         ],
         "props": {
           "text": "Primera fila",
           "blockClass": "row-item"
         }
       },
-      "flex-layout.row#category-grid-desktop-2": {
+      "flex-layout.row#category-grid--row2-desktop-2": {
         "children": [
-          "flex-layout.col#category-grid-item-3",
-          "flex-layout.col#category-grid-item-4"
+          "flex-layout.col#category-grid--row2-item-3",
+          "flex-layout.col#category-grid--row2-text-1",
+          "flex-layout.col#category-grid--row2-item-4"
         ]
       }, 
-      "flex-layout.row#category-grid-desktop-3": {
+      "flex-layout.row#category-grid--row3-desktop-3": {
         "children": [
-          "flex-layout.col#category-grid-item-5",
-          "flex-layout.col#category-grid-item-6"
-        ]
-      },"flex-layout.row#category-grid-desktop-4": {
-        "children": [
-          "flex-layout.col#category-grid-item-7",
-          "flex-layout.col#category-grid-item-8"
+          "flex-layout.col#category-grid--row3-item-5",
+          "flex-layout.col#category-grid--row3-item-6",
+          "flex-layout.col#category-grid--row3-text-1"
         ]
       },
+      //CONTENODO FILA N3
+      "flex-layout.col#category-grid--row3-text-1":{
+        "children": [
+          "rich-text#category__grid--row3-text-1",
+          "rich-text#category__grid--row3-text-2",
+          "rich-text#category__grid--row3-text-3",
+          "rich-text#category__grid--row3-text-4"
+        ]
+      },
+      "rich-text#category__grid--row3-text-1": {
+        "title": "Título de Grilla",
+        "props": {
+          "text": "Pufi CART",
+          "blockClass": "grid-row1-text-2"
+        }
+      },"rich-text#category__grid--row3-text-2": {
+        "title": "Título de Grilla",
+        "props": {
+          "text": "-",
+          "blockClass": "grid-row1-text-3"
+        }
+        //
+      },"rich-text#category__grid--row3-text-3": {
+        "title": "Título de Grilla",
+        "props": {
+          "text": "Descripción del producto.Este es un texto simulado",
+          "blockClass": "grid-row1-text-4"
+        }
+      },"rich-text#category__grid--row3-text-4": {
+        "title": "Título de Grilla",
+        "props": {
+          "text": "#> VER MAS",
+          "blockClass": "grid-row1-text-5"
+        }
+      },
+      "flex-layout.row#category-grid-desktop-4": {
+        "children": [
+          "flex-layout.col#category-grid-item-7",
+          "flex-layout.col#category-grid--row4-text-1",
+          "flex-layout.col#category-grid-item-8"
+
+        ]
+      },
+            // CONTENIDO DE LA FILA 4
+
+ "flex-layout.col#category-grid--row4-text-1":{
+  "props": {
+    "blockClass": "grid-row4-text-1"
+  },
+  "children": [
+    "rich-text#category__grid--row4-text-1",
+    "rich-text#category__grid--row4-text-2",
+    "rich-text#category__grid--row4-text-3",
+    "rich-text#category__grid--row4-text-4"
+  ]
+},
+"rich-text#category__grid--row4-text-1": {
+  "title": "Título de Grilla",
+  "props": {
+    "text": "Pufi NAP",
+    "blockClass": "grid-row1-text-2"
+  }
+},"rich-text#category__grid--row4-text-2": {
+  "title": "Título de Grilla",
+  "props": {
+    "text": "-",
+    "blockClass": "grid-row1-text-3"
+  }
+  //
+},"rich-text#category__grid--row4-text-3": {
+  "title": "Título de Grilla",
+  "props": {
+    "text": "Descripción del producto.Este es un texto simulado",
+    "blockClass": "grid-row1-text-4"
+  }
+},"rich-text#category__grid--row4-text-4": {
+  "title": "Título de Grilla",
+  "props": {
+    "text": "#> VER MAS",
+    "blockClass": "grid-row1-text-5"
+  }
+},
       "flex-layout.col#category-grid-item-1": {
         "title": "Categoría 1",
         "children": [
           "image#grid-item-1"
         ],
         "props": {
+          "blockClass": "row-item-1",
           "verticalAlign": "top",
-          "preventVerticalStretch": true,
-          "blockClass": "row-item-1"
+          "preventVerticalStretch": true
+        }
+      },
+      "flex-layout.col#category-grid-text-1":{
+        "children": [
+          "rich-text#grid-text-1"
+        ]
+      },
+      "rich-text#grid-text-1": {
+        "title": "Título de Grilla",
+        "props": {
+          "text": "SHOP",
+          "blockClass": "grid-row1-text-1"
+        }
+      },"flex-layout.col#category-grid-text-2":{
+        "children": [
+          "rich-text#category__grid-text-1",
+          "rich-text#category__grid-text-2",
+          "rich-text#category__grid-text-3",
+          "rich-text#category__grid-text-4"
+        ]
+      },
+      "rich-text#category__grid-text-1": {
+        "title": "Título de Grilla",
+        "props": {
+          "text": "Pufi RAIN",
+          "blockClass": "grid-row1-text-2"
+        }
+      },"rich-text#category__grid-text-2": {
+        "title": "Título de Grilla",
+        "props": {
+          "text": "-",
+          "blockClass": "grid-row1-text-3"
+        }
+        //
+      },"rich-text#category__grid-text-3": {
+        "title": "Título de Grilla",
+        "props": {
+          "text": "Descripción del producto.Este es un texto simulado",
+          "blockClass": "grid-row1-text-4"
+        }
+      },"rich-text#category__grid-text-4": {
+        "title": "Título de Grilla",
+        "props": {
+          "text": "#> VER MAS",
+          "blockClass": "grid-row1-text-5"
         }
       },
       "flex-layout.col#category-grid-item-2": {
@@ -72,35 +198,69 @@
           "image#grid-item-2"
         ],
         "props": {
-          "blockClass": "row-item-2",
+          "blockClass": "row1-item-2",
           "verticalAlign": "top",
           "preventVerticalStretch": true
         }
       },
-      "flex-layout.col#category-grid-item-3": {
+      "flex-layout.col#category-grid--row2-item-3": {
         "title": "Categoría 3",
         "children": [
           "image#grid-item-3"
         ],
         "props": {
-          "blockClass": "row-item-1",
+          "blockClass": "row2-img-3",
           "verticalAlign": "top",
           "preventVerticalStretch": true
           
         }
       },
-      "flex-layout.col#category-grid-item-4": {
+      "flex-layout.col#category-grid--row2-text-1":{
+        "children": [
+          "rich-text#grid--row2-text-1",
+          "rich-text#grid--row2-text-2",
+          "rich-text#grid--row2-text-3",
+          "rich-text#grid--row2-text-4"
+        ]
+      },
+      "rich-text#grid--row2-text-1": {
+        "title": "Título de Grilla",
+        "props": {
+          "text": "Pufi PUFF",
+          "blockClass": "grid-row2-text-1"
+        }
+      },"rich-text#grid--row2-text-2": {
+        "title": "Título de Grilla",
+        "props": {
+          "text": "_",
+          "blockClass": "grid-row2-text-2"
+        }
+      },"rich-text#grid--row2-text-3": {
+        "title": "Título de Grilla",
+        "props": {
+          "text": "Descripción del producto.Este es un texto simulado",
+          "blockClass": "grid-row2-text-3"
+        }
+      },
+      "rich-text#grid--row2-text-4": {
+        "title": "Título de Grilla",
+        "props": {
+          "text": "#> VER MAS",
+          "blockClass": "grid-row2-text-4"
+        }
+      },
+      "flex-layout.col#category-grid--row2-item-4": {
         "title": "Categoría 4",
         "children": [
           "image#grid-item-4"
         ],
         "props": {
-          "blockClass": "row-item-2",
+          "blockClass": "row2-img-4",
           "verticalAlign": "top",
           "preventVerticalStretch": true
         }
       },
-      "flex-layout.col#category-grid-item-5": {
+      "flex-layout.col#category-grid--row3-item-5": {
         "title": "Categoría 5",
         "children": [
           "image#grid-item-5"
@@ -110,13 +270,13 @@
           "verticalAlign": "top",
           "preventVerticalStretch": true
         }
-      },"flex-layout.col#category-grid-item-6": {
+      },"flex-layout.col#category-grid--row3-item-6": {
         "title": "Categoría 6",
         "children": [
           "image#grid-item-6"
         ],
         "props": {
-          "blockClass": "row-item-2",
+          "blockClass": "row3-img-4",
           "verticalAlign": "top",
           "preventVerticalStretch": true
         }
@@ -162,7 +322,7 @@
         
       },"image#grid-item-3": {
         "props": {
-          "src": "https://cdn.pixabay.com/photo/2018/07/10/10/29/girl-3528292_960_720.jpg",
+          "src": "https://cdn.pixabay.com/photo/2022/06/23/12/58/clouds-7279751_960_720.jpg",
           "maxHeight": "100%",
           "height": "100%",
           "width": "100%",
@@ -194,7 +354,7 @@
         }
       },"image#grid-item-7": {
         "props": {
-          "src": "https://cdn.pixabay.com/photo/2013/02/23/14/46/child-85321_960_720.jpg"
+          "src": "https://cdn.pixabay.com/photo/2017/09/30/01/16/kitten-2801007_960_720.jpg"
         }
       },"image#grid-item-8": {
         "props": {

@@ -1,11 +1,14 @@
 {
     "footer-layout.desktop": { 
       "children": [
-        "flex-layout.row#footer"
+        "flex-layout.row#footer",
+        "flex-layout.row#footer-copyright"
       ]
     },
     "flex-layout.row#footer": {
-      "children": ["flex-layout.row#footer-category"],
+      "children": [
+        "flex-layout.row#footer-category"
+      ],
       "props": {
         "blockClass": "footer--category"
       }
@@ -26,6 +29,10 @@
     },
   
     "flex-layout.col#footer__logo": {
+      "props": {
+        "blockClass": "category",
+        "fullWidth": true
+      },
       "children": ["image#deal1"]
     },
     "image#deal1": {
@@ -103,17 +110,12 @@
         "flex-layout.row#footer__buy",
         "flex-layout.col#footer__image--buy-1",
         "flex-layout.col#footer__image--buy-2",
-        "flex-layout.col#footer__text--buy-2"//,
-        //"image#footer__buy-2",
-        //"rich-text#footer__buy-2"
+        "flex-layout.col#footer__text--buy-2"
       ]
     },
     "flex-layout.row#footer__buy": {
       "children": [
-        "rich-text#footer__buy-1" //,
-        //"image#footer__buy-1",
-         //"image#footer__buy-2",
-         //"rich-text#footer__buy-2"
+        "rich-text#footer__buy-1" 
       ]
     },
     "flex-layout.col#footer__image--buy-1": {
@@ -121,10 +123,7 @@
         "blockClass": "footer-image-col1"
       },
       "children": [
-        "image#footer__image--buy-1" //,
-        //"image#footer__buy-1",
-         //"image#footer__buy-2",
-         //"rich-text#footer__buy-2"
+        "image#footer__image--buy-1"
       ]
     }, 
     "flex-layout.col#footer__image--buy-2": {
@@ -132,10 +131,7 @@
         "blockClass": "footer-image-col2"
       },
       "children": [
-        "image#footer__image--buy-1" //,
-        //"image#footer__buy-1",
-         //"image#footer__buy-2",
-         //"rich-text#footer__buy-2"
+        "image#footer__image--buy-2"
       ]
     }, 
     "flex-layout.col#footer__text--buy-2": {
@@ -143,10 +139,7 @@
         "blockClass": "footer-image-col2"
       },
       "children": [
-        "rich-text#footer__buy-2" //,
-        //"image#footer__buy-1",
-         //"image#footer__buy-2",
-         //"rich-text#footer__buy-2"
+        "rich-text#footer__buy-2"
       ]
     },    
     "rich-text#footer__buy-1": {
@@ -157,11 +150,11 @@
     },
     "image#footer__image--buy-1": {
       "props": {
-        "src": "https://amalia.vteximg.com.br/arquivos/shield.png",
+        "src": "https://tiendariver.vteximg.com.br/arquivos/data-fiscal.png?v=636663145418030000",
         "maxHeight": "90px"
       }
     },
-    "image#footer__buy-2": {
+    "image#footer__image--buy-2": {
       "props": {
         "src": "https://amalia.vteximg.com.br/arquivos/shield.png",
         "maxHeight": "90px"
@@ -214,6 +207,48 @@
       "props": {
         "src": "https://esika.tiendabelcorp.com/medias/youtube-esika.svg?context=bWFzdGVyfGltYWdlc3w5OTF8aW1hZ2Uvc3ZnK3htbHxpbWFnZXMvaDBkL2hmYS8xMDc0NDk1NDY1MDY1NC5zdmd8OTRkNDczZTM0NjQ4NTk3Y2IzOTAyMmE5ZDE5MzIzOTVkMjgxZDg4YzFjZThjODAzMTQyMmM3MWM3MmY5Njk2NA",
         "maxHeight": "90px"
+      }
+    },
+    "flex-layout.row#footer-copyright": {
+      "children": [
+        "flex-layout.col#footer__copyright-text",
+        "flex-layout.col#footer__copyright-img"
+      ],
+      "props": {
+        "blockClass": "footer-copyright",
+        "fullWidth": true
+      }
+    },
+    "flex-layout.col#footer__copyright-text":{
+      "props": {
+        "blockClass": "footer-copyright-text",
+        "fullWidth": true
+      },
+    "children": [
+      "rich-text#footer__copyright-text"
+    ]
+    },
+    "rich-text#footer__copyright-text": {
+      "props": {
+        "text": "PUFI copyright 2017-Todo los derechos reservados ",
+        "blockClass": "footer-copyright-text"
+      }
+    }
+    //hjj
+    ,
+    "flex-layout.col#footer__copyright-img":{
+      "props": {
+        "blockClass": "footer-copyright-img",
+        "fullWidth": true
+      },
+    "children": [
+      "image#footer__copyright--img-1"
+    ]
+    },
+    "image#footer__copyright--img-1": {
+      "props": {
+        "src": "https://brandlivecommerce.com/assets/img/logo-footer.svg",
+        "maxHeight": "35px"
       }
     }
 }

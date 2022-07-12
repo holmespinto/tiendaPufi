@@ -1,7 +1,8 @@
 {
     "sticky-layout#desktop__suscribite": {
+      "title":"botones desktop suscribite",
         "props": {
-          "blockClass": "sticky-header"
+          "blockClass": "row-suscribite"
         },           
         "children": [
           "flex-layout.row#desktop__suscribite-1",
@@ -76,18 +77,10 @@
           "fullWidth": true
         },
         "children": [
-          "rich-text#suscribite-4",
           "button-email"
         ]
       },
       "button-email":{
         "title": "Button Email"
-      },
-      "rich-text#suscribite-4": {
-        "title": "Título de Grilla",
-        "props": {
-          "text": "Ingresa tu email",
-          "blockClass": "input_email"
-        }
       } 
 }

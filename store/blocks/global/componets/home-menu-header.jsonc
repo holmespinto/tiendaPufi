@@ -1,7 +1,8 @@
 {
     "sticky-layout#global__menu": {
+      "title": "Botones principales",
         "props": {
-          "blockClass": "sticky-header"
+          "blockClass": "menu-header"
         },           
         "children": [
           "flex-layout.row#desktop",

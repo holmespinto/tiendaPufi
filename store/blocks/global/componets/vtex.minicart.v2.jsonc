@@ -1,9 +1,9 @@
 
     {
         "minicart.v2": {
+            "title": "Boton minicart",
             "props":{
                 "optionsTitle":"MI compra"
-              }
+            }
         }
-    
     }

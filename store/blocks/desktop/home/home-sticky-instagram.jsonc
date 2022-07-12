@@ -1,5 +1,6 @@
 {
     "sticky-layout#desktop__instagram": {
+      "title":"botones desktop__instagram",
         "props": {
           "blockClass": "sticky-header"
         },           
@@ -33,19 +34,19 @@
           "verticalAlign": "center",
           "preventHorizontalStretch": true,
           "preventVerticalStretch": true,
-          "fullWidth": true
+          "fullWidth": true,
+          "href": "https://www.instagram.com/explore/tags/Exitos/"
         },
         "children": [
-          "rich-text#instagram-2"
+          "link#instagram-2"
         ]
       },
-      "rich-text#instagram-2": {
+      "link#instagram-2": {
         "title": "Título de Grilla",
         "props": {
           "href": "https://www.instagram.com/explore/tags/Exitos/",
-          "text": "#ESPUFI",
+          "label": "#ESPUFI",
           "blockClass": "grid-item-title-instagram-2"
-          
         }
       } 
 }

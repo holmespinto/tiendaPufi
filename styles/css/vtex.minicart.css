@@ -12,11 +12,10 @@
     padding: 0 0 0 10px;
   }
   .minicartContainer :global(.vtex-button__label)::after{
-    font-family: 'icomoon';
     content: "MI COMPRA";
     color: rgb(249, 245, 245);
     font-size: 14px;
   }
-  .profileIcon{
+  .cartIcon{
     display: none;
   }
